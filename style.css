@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  text-align: center;
+  font-family: "Lato", sans-serif ;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("images/Zaun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center ;
+}
+
+/* Navbar */
+
+nav {
+  background-color : #0b2c38;
+}
+
+h1 {
+  color: #d7a25c;
+}
+
+ul {
+  justify-content: space-around;
+}
+
+input {
+  color: #d7a25c;
+  background-color: #0b2c38;
+  border: #d7a25c;
+}
+
+ul li {
+  padding: 1rem;
+}
+
+#items-nav {
+  justify-content: flex-end;
+}
+
+  
+/* Partie jeu */
+
+.zone-jeu {
+  display : flex;
+  flex-direction : row;
+}
+
+
+#img-dice {
+  flex-basis: 33%;
+  display: block;
+  text-align: center;
+}
+
+#Jinx {
+  flex-basis: 33%;
+  color: whitesmoke;
+}
+
+#Vi {
+  flex-basis: 33%;
+  color: whitesmoke;
+}
+
+#dice{
+  margin-top: 8rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+.nom-perso, .pv {
+  margin-top: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Images */
+
+#images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.portait {
+  height: 15rem;
+  max-width: 50%;
+}
+
+
+
+@media screen and (max-width : 600px) {
+
+  #images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 50%;
+    margin: 0;
+  }
+
+}
+
+/* Zone commandes jeu */
+  
+#zone-boutons-jeu {
+  background-color : #d7a25c;
+  display : flex;
+  flex-direction : column;
+  width : 12.5rem;
+  height : 6.25rem;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+  
+.boutons-jeu {
+  margin : auto;
+}
