@@ -28,7 +28,7 @@ ul {
   justify-content: space-around;
 }
 
-input {
+.navbar-nav button {
   color: #d7a25c;
   background-color: #0b2c38;
   border: #d7a25c;
@@ -42,7 +42,24 @@ ul li {
   justify-content: flex-end;
 }
 
-  
+.modal-header {
+  background-color: #d7a25c;
+  color: #0b2c38;
+}
+
+.modal-title {
+  font-size: 2rem;
+}
+
+.modal-body {
+  background-color: #0b2c38;
+  color: #d7a25c;
+}
+
+.modal-body p {
+  font-size: 1.2rem;
+}
+
 /* Partie jeu */
 
 .zone-jeu {

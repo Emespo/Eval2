@@ -32,8 +32,35 @@
 
               <div class="collapse navbar-collapse" id="items-nav">
                   <ul class="navbar-nav">
-                      <li class="nav-item"><input type="button" value="Règles du jeu"></li>
-                      <li class="nav-item"><input id="newgame" type="button" value="Nouvelle partie"></li>
+                      <!--Fenêtre modale-->
+                      <!-- Button trigger modal -->
+                      <li>
+                        <button type="button" class="nav-item" id="btnRules" data-bs-toggle="modal" data-bs-target="#exampleModal">Règles du jeu</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Règles du jeu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                
+                                <p>Bienvenue dans ce jeu directement inspiré du lore du MOBA League of Legends. Deux sœurs rivales,
+                                  Jinx et Vi, veulent reprendre le contrôle du district où elles ont grandi : Zaun. Pour cela,
+                                  elles doivent s'affronter à l'aide d'un dé que Jinx aurait dérobé à un certain Twisted Fate.</p>
+                                <p>Voici les règles :</p>
+                                <p>Jinx et Vi peuvent charger une attaque en lançant le dé autant de fois qu'elles le veulent, 
+                                  cumulant alors les scores obtenus. A tout moment, elles peuvent décider que l'attaque est assez puissante pour être lancée.</p>
+                                <p>Attention cependant, tomber sur le chiffre "1" annulera l'attaque en cours, le dé sera donné à l'adversaire.</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                      <!--fIN DE LA MODAL-->
+                      </li>
+                      <li class="nav-item"><button type="button" class="nav-item" id="newgame">Nouvelle partie</button>
+                      </li>
                   </ul>
               </div>
 
