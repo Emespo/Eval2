@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /backups/
+Disallow: /data/
+Disallow: /plugins/
+Allow: /data/uploads/
+
+Sitemap: https://friendly-cray-a47b16.netlify.app/sitemap.xml

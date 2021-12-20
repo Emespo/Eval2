@@ -69,18 +69,18 @@ ul li {
 
 
 #img-dice {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   display: block;
   text-align: center;
 }
 
 #Jinx {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   color: whitesmoke;
 }
 
 #Vi {
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   color: whitesmoke;
 }
 
@@ -136,7 +136,7 @@ p {
   width : 12.5rem;
   height : 6.25rem;
   position:fixed;
-  bottom: 0;
+  top: 30rem;
   left: 0;
   right: 0;
   margin: 0 auto;
